@@ -1,0 +1,1 @@
+This project was done in order to be able to respect as many requests as the ones presented in the projectdetails.pdf. It is a very simple application that can store details about students in both a database or in a text file
