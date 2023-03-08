@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.ControllerMainScene">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="77.0" prefHeight="17.0" prefWidth="600.0" style="-fx-background-color: WHITE;" text="FIPS private university app">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Line endX="265.0" layoutX="300.0" layoutY="138.0" opacity="0.64" startX="-266.0" stroke="WHITE" strokeWidth="3.0" />
+      <Button fx:id="Displaybutton" layoutX="218.0" layoutY="200.0" mnemonicParsing="false" onAction="#display" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: aqua;" text="Search">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="Addbutton" layoutX="218.0" layoutY="156.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: aqua;" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="Deletebutton" layoutX="218.0" layoutY="242.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: aqua;" text="Delete">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="5.0" layoutY="369.0" prefHeight="17.0" prefWidth="600.0" text="© Copyright FIPS University All Rights Reserved" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="departmentsbutton" layoutX="219.0" layoutY="289.0" mnemonicParsing="false" onAction="#departments" prefHeight="25.0" prefWidth="162.0" style="-fx-background-color: aqua;" text="Departments info">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="23.0" prefHeight="17.0" prefWidth="68.0" text="FIPS " textFill="AQUA" AnchorPane.rightAnchor="510.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

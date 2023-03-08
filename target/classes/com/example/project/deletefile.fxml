@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.DeleteFileController">
+    <children>
+        <Label alignment="CENTER" layoutY="28.0" prefHeight="17.0" prefWidth="600.0" text="Delete a student by ID" textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="149.0" layoutY="132.0" prefHeight="17.0" prefWidth="151.0" text="Student ID:" textFill="WHITE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="studentid" layoutX="270.0" layoutY="130.0" prefHeight="25.0" prefWidth="204.0" promptText="Enter the student id here" />
+        <Button fx:id="backButton" layoutX="14.0" layoutY="16.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #6f6f94;" text="Back" textFill="WHITE" />
+        <Button fx:id="submitButton" layoutX="245.0" layoutY="200.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #6f6f94;" text="Submit" textFill="WHITE" />
+        <Button fx:id="restoreButton" layoutX="474.0" layoutY="361.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #6f6f94;" text="Reset" textFill="WHITE" />
+        <Label fx:id="notfound" alignment="CENTER" layoutX="-3.0" layoutY="269.0" prefHeight="17.0" prefWidth="600.0" textFill="#ff0707">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="found" alignment="CENTER" layoutX="7.0" layoutY="279.0" prefHeight="17.0" prefWidth="600.0" textFill="#6f6f94">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
